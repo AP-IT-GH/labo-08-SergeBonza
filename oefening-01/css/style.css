@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.lijst-1, .lijst-2, .lijst-3, .lijst-4, .lijst-5 , .lijst-6 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.kleur-1, .kleur-2, .kleur-3, .kleur-4, .kleur-5, .kleur-6 {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    flex-grow: 1;
+}
+.kleur-1{
+    color: blue;
+}
+.kleur-2{
+    color: green;
+}
+.kleur-3{
+    color: red;
+}
+.kleur-4{
+    color: orange;
+}
+.kleur-5{
+    color: purple;
+}
+.kleur-6{
+    color: brown;
+}
+.lijst-1{
+        flex-direction: row;
+}
+@media screen and (min-width: 576px) {
+    
+    .lijst-2{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 768px) {
+    
+    .lijst-3{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 992px) {
+    
+    .lijst-4{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
+    .lijst-5{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1400px) {
+    
+    .lijst-6{
+        flex-direction: row;
+    }
+}
